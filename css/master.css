@@ -4,7 +4,7 @@ body {
   font-family: 'Century Gothic'; }
 
 ul {
-  position: relative;
+  position: relatives;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,11 +13,11 @@ ul {
   margin: 0;
   padding: 0; }
   ul:hover li {
-    width: 10%; }
+    width: 20%; }
   ul li {
     list-style: none;
     position: relative;
-    width: 20%;
+    width: 33.3%;
     height: 100%;
     border-right: 1px solid #000;
     float: left;
@@ -28,26 +28,14 @@ ul {
     ul li:hover {
       width: 60%; }
     ul li:nth-child(1) {
-      background: url("../img/street1.jpg");
+      background: url("../img/street6.jpg");
       background-size: cover;
       background-position: left; }
     ul li:nth-child(2) {
-      background: url("../img/street2.jpg");
+      background: url("../img/street6.jpg");
       background-size: cover;
       background-position: left; }
     ul li:nth-child(3) {
-      background: url("../img/street3.jpg");
-      background-size: cover;
-      background-position: left; }
-    ul li:nth-child(4) {
-      background: url("../img/street4.jpg");
-      background-size: cover;
-      background-position: left; }
-    ul li:nth-child(5) {
-      background: url("../img/street5.jpg");
-      background-size: cover;
-      background-position: left; }
-    ul li:nth-child(6) {
       background: url("../img/street6.jpg");
       background-size: cover;
       background-position: left; }
